@@ -1,6 +1,6 @@
 <template>
 	<nav>
-		<router-link :to="{ name: 'Home' }">Home</router-link>
+		<router-link :to="{ name: 'Home' }">Home Nieuw</router-link>
 		<div v-if="!user">
 			<router-link :to="{ name: 'Authentication' }">Login / Aanmelden</router-link>
 		</div>
